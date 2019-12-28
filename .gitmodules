@@ -1,0 +1,9 @@
+[submodule "DAP42/contrib/cmsis"]
+	path = DAP42/contrib/cmsis
+	url = https://github.com/SushiBits/cmsis.git
+[submodule "DAP42/contrib/platform"]
+	path = DAP42/contrib/platform
+	url = https://github.com/SushiBits/platform-stm32f0.git
+[submodule "DAP42/contrib/libusb_stm32"]
+	path = DAP42/contrib/libusb_stm32
+	url = https://github.com/dmitrystu/libusb_stm32.git
