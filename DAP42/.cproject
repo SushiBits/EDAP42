@@ -89,7 +89,7 @@
                             							
                             <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.2083544646" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
                             							
-                            <builder buildPath="${workspace_loc:/DAP42}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.687788468" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+                            <builder buildPath="${workspace_loc:/DAP42}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.687788468" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
                             							
                             <tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.960337311" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
                                 								
@@ -255,6 +255,18 @@
     	
     <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
     	
-    <storageModule moduleId="refreshScope"/>
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Debug">
+            			
+            <resource resourceType="PROJECT" workspacePath="/DAP42"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
     
 </cproject>
