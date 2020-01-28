@@ -7,7 +7,11 @@
 
 #include <stm32f0xx.h>
 
+#include <DAP.h>
+
 #include "rcc.h"
+#include "usb-common.h"
+
 
 void SystemInit(void)
 {
@@ -16,6 +20,9 @@ void SystemInit(void)
 
 int main(void)
 {
+	DAP_Setup();
+	usb_init();
+
 	for (;;)
 		__WFE();
 }
