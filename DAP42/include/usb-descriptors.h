@@ -162,7 +162,7 @@ static const struct config_descriptor
 				.bFunctionClass = USB_CLASS_CDC,
 				.bFunctionSubClass = USB_CDC_SUBCLASS_ACM,
 				.bFunctionProtocol = USB_CDC_PROTO_NONE,
-				.iFunction = 3
+				.iFunction = 4
 		},
 		.cdc_cif =
 		{
@@ -174,7 +174,7 @@ static const struct config_descriptor
 				.bInterfaceClass = USB_CLASS_CDC,
 				.bInterfaceSubClass = USB_CDC_SUBCLASS_ACM,
 				.bInterfaceProtocol = USB_CDC_PROTO_NONE,
-				.iInterface = 3
+				.iInterface = 4
 		},
 		.cdc_desc =
 		{
@@ -227,7 +227,7 @@ static const struct config_descriptor
 				.bInterfaceClass = USB_CLASS_CDC_DATA,
 				.bInterfaceSubClass = USB_SUBCLASS_NONE,
 				.bInterfaceProtocol = USB_PROTO_NONE,
-				.iInterface = 3
+				.iInterface = 4
 		},
 		.cdc_dep =
 		{
